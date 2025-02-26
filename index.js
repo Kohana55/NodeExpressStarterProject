@@ -13,7 +13,7 @@ mongoose.connect(uri).then(() => {
 })
 
 app.use(cors({
-    origin: 'http://localhost:1337',  // Allow requests from Angular
+    origin: 'http://localhost:4200',  // Allow requests from Angular
     methods: 'GET,POST,PUT,DELETE',  // Allowed HTTP methods
     allowedHeaders: 'Content-Type,Authorization'  // Allowed headers
 }));
