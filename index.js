@@ -7,7 +7,7 @@ const cors = require('cors');
 
 // Mongoose
 const mongoose = require('mongoose');
-const uri = "mongodb+srv://Lewis:MateClwb03@hapinin.2r3xf.mongodb.net/";
+const uri = "";
 mongoose.connect(uri).then(() => {
     console.log("Connected to Atlas MongoDB")
 })
